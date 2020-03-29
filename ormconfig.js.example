@@ -1,0 +1,15 @@
+module.exports = {
+  type: 'mysql',
+  host: 'localhost',
+  username: '',
+  password: '',
+  database: 'base_service',
+  port: 3306,
+  entities: [
+    'src/**/*.entity.ts',
+    'src/**/**/*.entity.ts',
+    ,
+    'src/**/**/**/*.entity.ts',
+  ],
+  seeds: ['src/database/seeds/**/*.seed.ts'],
+};
